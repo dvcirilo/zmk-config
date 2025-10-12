@@ -1,6 +1,6 @@
 if SHIELD_PANTIE36
 
 config ZMK_KEYBOARD_NAME
-    default "pantie36 keyboard"
+    default "pantie36 kbd"
 
 endif
