@@ -1,2 +1,2 @@
-config SHIELD_EEK
+config SHIELD_PANTIE36
     def_bool $(shields_list_contains,pantie36)
