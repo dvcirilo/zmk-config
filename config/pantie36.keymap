@@ -47,19 +47,19 @@
 
         window {
             bindings = <
-  &kp LA(N1)      &kp LA(N2)      &kp LA(N3)      &kp LA(N4)      &kp LA(N5)        &none         &none         &none         &none         &none
-  &kp LA(LS(N1))  &kp LA(LS(N2))  &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))    &none         &none         &none         &kp LG(L)     &none
-  &kp LA(TAB)     &none           &none           &none           &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                                  &trans          &none           &none             &soft_off     &sys_reset    &bootloader
+  &kp LA(N1)      &kp LA(N2)      &kp LA(N3)      &kp LA(N4)      &kp LA(N5)        &none         &none         &none         &none         &bootloader
+  &kp LA(LS(N1))  &kp LA(LS(N2))  &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))    &out OUT_TOG  &none         &none         &kp LG(L)     &none
+  &kp LALT        &kp TAB         &none           &none           &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                                  &trans          &none           &none             &bt BT_NXT    &bt BT_CLR    &sys_reset
             >;
         };
 
         fn {
             bindings = <
-  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none    &kp PRINTSCREEN
-  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10         &kp HOME    &kp PG_UP     &kp PG_DN     &kp END  &kp INS
-  &kp F11  &kp F12  &none   &none   &none           &none       &kp C_BRI_DN  &kp C_BRI_UP  &none    &kp CAPS
-                    &none   &none   &out OUT_TOG    &bt BT_NXT  &bt BT_CLR    &trans
+  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none      &kp PRINTSCREEN
+  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp HOME    &kp PG_UP     &kp PG_DN     &kp END    &kp INS
+  &kp F11  &kp F12  &none   &none   &none      &none       &kp C_BRI_DN  &kp C_BRI_UP  &kp RCTRL  &kp CAPS
+                    &none   &none   &none      &none       &none         &trans
             >;
         };
     };
