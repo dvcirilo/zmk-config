@@ -1,4 +1,4 @@
-#include "miniiris.dtsi"
+#include "miniiris36.dtsi"
 
 &default_transform {
     col-offset = <5>;
