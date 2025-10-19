@@ -1,7 +1,7 @@
 if SHIELD_MINIIRIS36_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "miniiris36 kbd"
+    default "zmk dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
