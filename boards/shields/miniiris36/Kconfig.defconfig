@@ -1,0 +1,16 @@
+if SHIELD_MINIIRIS36_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "miniiris36 kbd"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MINIIRIS_LEFT || SHIELD_MINIIRIS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
