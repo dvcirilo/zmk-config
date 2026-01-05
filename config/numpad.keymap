@@ -11,10 +11,7 @@
                 <&macro_press &kp LALT>,
                 <&macro_tap &kp P>,
                 <&macro_release &kp LALT>,
-                <&macro_wait_time 100>,
-                <&kp F &kp R &kp E &kp E &kp N4 &kp N2>,
-                <&macro_wait_time 100>,
-                <&kp ENTER>;
+                <&macro_tap &kp F &kp R &kp E &kp E &kp N4 &kp N2 &kp ENTER>;
 
             label = "FREE42";
         };
