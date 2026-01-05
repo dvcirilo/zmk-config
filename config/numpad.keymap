@@ -8,11 +8,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp P>,
-                <&macro_release>,
-                <&macro_tap>,
-                <&kp P &kp F &kp R &kp E &kp E &kp N4 &kp N2>,
+                <&macro_press &kp LALT>,
+                <&macro_tap &kp P>,
+                <&macro_release &kp LALT>,
+                <&macro_wait_time 100>,
+                <&kp F &kp R &kp E &kp E &kp N4 &kp N2>,
                 <&macro_wait_time 100>,
                 <&kp ENTER>;
 
